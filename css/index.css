@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     height: 100%;
 }
@@ -209,8 +209,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    z-index: 10;
 }
 
 footer nav{
-    color: white;
+    background-color: black;
+}
+
+/* begin the code for the about page */
+
+#about-topsection{
+    width: 87%;
+    padding: 3% 0%;
+    
+}
+#dottedbottomborder{
+    border-bottom: 1px dotted black;
+}
+
+/* start about box flexing */
+#about-flex-section {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+}
+.about-box{
+    border-bottom: 2px dotted black;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    width: 46%;
+}
+.about-box img {
+    width:100%;
+}
+.about-box h3{
+    margin-top: 3%;
+}
+.about-box p{
+    margin-bottom: 4%;
+}
+.about-box .round {
+    height: 45px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+#about-end-content{
+    margin: 30px 0px;
+    width: 100%;
+    padding-left: 30px;
 }
